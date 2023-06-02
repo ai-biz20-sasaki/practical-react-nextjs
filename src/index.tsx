@@ -14,6 +14,7 @@ import { FizzBuzz } from './components/FizzBuzz';
 import { FizzBuzz02 } from './components/FizzBuzz02';
 import { Memorization } from './components/UseCallbackSample';
 import { UseMemoSample } from './components/UseMemoSample';
+import { Clock } from './components/Clock';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -29,6 +30,7 @@ root.render(
     <Counter initialValue={1} />
     <Counter02 initialValue={1} />
     <UseMemoSample />
+    <Clock />
   </div>
 //  </React.StrictMode>
 );
