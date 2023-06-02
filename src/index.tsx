@@ -10,6 +10,7 @@ import Parent from './components/ContainerSample';
 import Page from './components/ContextSample';
 import Counter from './components/CounterSample';
 import Counter02 from './components/CounterSample02';
+import { FizzBuzz } from './components/FizzBuzz';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -23,6 +24,7 @@ root.render(
     <Page />
     <Counter initialValue={1} />
     <Counter02 initialValue={1} />
+    <FizzBuzz />
   </React.StrictMode>
 );
 
