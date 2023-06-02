@@ -1,5 +1,6 @@
 //TODO:FizzBuzzコンポーネントの実行結果をコンソールで確認すると、console.logが2回表示されている
 //なぜかわからないがひとまずこのままにする
+//->src/index.tsx の<React.StrictMode>を外すと解決することがわかった
 import React, { memo, useState } from "react";
 
 type FizzProps = {
