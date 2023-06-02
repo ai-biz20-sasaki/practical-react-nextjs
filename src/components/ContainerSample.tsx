@@ -1,5 +1,13 @@
+import React from "react";
+
+//Containerの関数式の引数propsの型を定義する
+type ContainerProps = {
+  title: string
+  children: React.ReactNode
+}
+
 //子コンポーネントContainerは親コンポーネントParentから'title'と'children'を受け取る
-const Container = (props: { title: string; children: React.ReactElement }) => {
+const Container = (props: ContainerProps): JSX.Element => {
   const { title, children } = props
 
   return (
@@ -11,7 +19,7 @@ const Container = (props: { title: string; children: React.ReactElement }) => {
   )
 }
 
-const Parent = () => {
+const Parent = (): JSX.Element => {
   return (
     //p要素が子コンポーネントの'children'として渡される
     <Container title="Hello">
