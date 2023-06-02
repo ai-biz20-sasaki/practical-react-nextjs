@@ -12,6 +12,7 @@ import Counter from './components/CounterSample';
 import Counter02 from './components/CounterSample02';
 import { FizzBuzz } from './components/FizzBuzz';
 import { FizzBuzz02 } from './components/FizzBuzz02';
+import { Memorization } from './components/Memorization';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -26,7 +27,7 @@ root.render(
     <Page />
     <Counter initialValue={1} />
     <Counter02 initialValue={1} />
-    <FizzBuzz02 />
+    <Memorization />
   </div>
 //  </React.StrictMode>
 );
