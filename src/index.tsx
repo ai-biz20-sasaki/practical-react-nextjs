@@ -12,7 +12,7 @@ import Counter from './components/CounterSample';
 import Counter02 from './components/CounterSample02';
 import { FizzBuzz } from './components/FizzBuzz';
 import { FizzBuzz02 } from './components/FizzBuzz02';
-import { Memorization } from './components/Memorization';
+import { Memorization } from './components/UseCallbackSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
